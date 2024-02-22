@@ -11,3 +11,11 @@ Content-Type: application/json
   "status": "ACTIVE",
   "profileRole": "ROLE_USER"
 }
+####
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@mail.ru",
+  "password": "12345"
+}

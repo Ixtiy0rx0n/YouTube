@@ -23,7 +23,8 @@ public class SpringSecurityConfig {
     private JwtTokenFilter jwtTokenFilter;
 
     public static final String[]AUTH_WHITELIST={
-      "/profile/*"
+      "/profile/*",
+            "/api/auth/*"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {

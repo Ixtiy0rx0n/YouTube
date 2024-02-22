@@ -29,6 +29,6 @@ public class ProfileService {
         admin.setRole(registrationDTO.getProfileRole());
         admin.setPassword(MDUtil.encode(registrationDTO.getPassword()));
         profileRepository.save(admin);
-        return admin.getPassword();
+        return "created profile";
     }
 }

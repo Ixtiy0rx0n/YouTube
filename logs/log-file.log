@@ -3813,3 +3813,33 @@ Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violate
 22 Feb 2024 - 19:15:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 22 Feb 2024 - 19:15:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 22 Feb 2024 - 19:15:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22 Feb 2024 - 19:15:44 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 4116 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+22 Feb 2024 - 19:15:44 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+22 Feb 2024 - 19:15:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22 Feb 2024 - 19:15:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+22 Feb 2024 - 19:15:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22 Feb 2024 - 19:15:46 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22 Feb 2024 - 19:15:46 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+22 Feb 2024 - 19:15:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22 Feb 2024 - 19:15:46 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1495 ms
+22 Feb 2024 - 19:15:46 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22 Feb 2024 - 19:15:46 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+22 Feb 2024 - 19:15:46 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+22 Feb 2024 - 19:15:46 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+22 Feb 2024 - 19:15:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22 Feb 2024 - 19:15:46 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a2e1e52
+22 Feb 2024 - 19:15:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22 Feb 2024 - 19:15:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+22 Feb 2024 - 19:15:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22 Feb 2024 - 19:15:48 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22 Feb 2024 - 19:15:48 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7207f3c2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@574134ba, org.springframework.security.web.context.SecurityContextHolderFilter@24fb8317, org.springframework.security.web.header.HeaderWriterFilter@43414b88, org.springframework.security.web.authentication.logout.LogoutFilter@2fcad739, com.example.config.JwtTokenFilter@468eff41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f451970, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a7c8cb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57063e08, org.springframework.security.web.access.ExceptionTranslationFilter@f09c282, org.springframework.security.web.access.intercept.AuthorizationFilter@7d3faf1d]
+22 Feb 2024 - 19:15:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+22 Feb 2024 - 19:15:49 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.153 seconds (process running for 5.948)
+22 Feb 2024 - 19:15:49 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+22 Feb 2024 - 19:15:49 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+22 Feb 2024 - 19:15:49 INFO  o.f.c.i.license.VersionPrinter - 
+22 Feb 2024 - 19:15:49 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+22 Feb 2024 - 19:15:49 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.026s)
+22 Feb 2024 - 19:15:49 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 4
+22 Feb 2024 - 19:15:49 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - admin"
+22 Feb 2024 - 19:15:49 INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v5 (execution time 00:00.011s)

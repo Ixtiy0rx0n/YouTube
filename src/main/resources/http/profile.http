@@ -1,0 +1,13 @@
+###Create Profile
+POST localhost:8080/profile/create
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "surname": "Abdujalilov",
+  "email": "ozod@gmail.ru2",
+  "phone": "12344",
+  "password": "2222",
+  "status": "ACTIVE",
+  "profileRole": "ROLE_USER"
+}

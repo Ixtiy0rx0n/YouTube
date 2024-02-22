@@ -23,26 +23,7 @@ public class SpringSecurityConfig {
     private JwtTokenFilter jwtTokenFilter;
 
     public static final String[]AUTH_WHITELIST={
-            "/api/auth/*",
-            "/init/admin",
-            "/init/*",
-            "/profile/filter",
-            "/region/byLang",
-            "/articletype/byLang",
-            "/category/byLang",
-            "/commentlike/*",
-            "/articlelike/*",
-            "/comment/*",
-            "/attach/*",
-            "/v2/api-docs",
-            "/configuration/ui",
-            "/configuration/security",
-            "/swagger-ui.html",
-            "/webjars/**",
-            "/v3/api-docs/**",
-            "/swagger-ui/**",
-            "/swagger-resources",
-            "/swagger-resources/**",
+      "/profile/*"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {
@@ -74,7 +55,7 @@ public class SpringSecurityConfig {
                     .requestMatchers("/articletype/adm/*").hasRole("ADMIN")
                     .requestMatchers("/category/adm/*").hasRole("ADMIN")
                     .requestMatchers("/article/publish").hasAnyRole("ADMIN","PUBLISHER")
-                    .requestMatchers("/profile","/profile/*").hasRole("ADMIN")
+//                    .requestMatchers("/profile","/profile/*").hasRole("ADMIN")
                     .anyRequest()
                     .authenticated();
         });

@@ -1,10 +1,18 @@
 package com.example.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.dto.RegistrationDTO;
+import com.example.service.ProfileService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/profile")
+@RequestMapping("/profile")
 public class ProfileController {
-
+    @Autowired
+    private ProfileService profileService;
+     @PostMapping("/create")
+    public ResponseEntity<String>creted(@RequestBody RegistrationDTO registrationDTO){
+       return ResponseEntity.ok(profileService.created(registrationDTO));
+     }
 }

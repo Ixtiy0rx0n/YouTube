@@ -75,6 +75,7 @@ public class SpringSecurityConfig {
             @Override
             public boolean matches(CharSequence rawPassword, String encodedPassword) {
                 return MDUtil.encode(rawPassword.toString()).equals(encodedPassword);
+                //
             }
         };
     }

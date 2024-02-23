@@ -11,11 +11,32 @@ Content-Type: application/json
   "status": "ACTIVE",
   "profileRole": "ROLE_USER"
 }
-####
+####  login
 POST http://localhost:8080/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "admin@mail.ru",
-  "password": "12345"
+  "email": "admin@mail.ru1",
+  "password": "123456"
 }
+####  Change passord
+# @no-cookie-jar
+PUT http://localhost:8080/profile/chanchePasword
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg2ODMzMTksImVtYWlsIjoiYWRtaW5AbWFpbC5ydSIsInJvbGUiOiJST0xFX0FETUlOIiwiZXhwIjoxNzA4NzY5NzE5LCJpc3MiOiJLdW5VelRlc3QifQ.4wzccIOKPI-JnpW8pqNtbHaqOSNj6ZfiU3z-R2xEOXTaRx7Au9YwTp1HKzRhdCGSAOdqz1SAGaqYCCn3WYzdZA
+Content-Type: application/json
+
+{
+  "password": "123456"
+}
+####CHANGE Email
+PUT http://localhost:8080/profile/updatemail
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg2OTM0MDUsImVtYWlsIjoiYWRtaW5AbWFpbC5ydTEiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTcwODc3OTgwNSwiaXNzIjoiS3VuVXpUZXN0In0.95MbUOuUo8McP9e8GjSv1nPZS1WaTWpkZ7yi-Iue7-IHtqVz0z0oZHHj7COPoFbFmYUFvMl4kldoaCSudlrxFw
+Content-Type: application/json
+
+{
+  "email": "abjalilovozodjon@gmail.com",
+  "name": "Ozod",
+  "surName": "qwee"
+}
+###### UPDATE NAME SURNAME
+

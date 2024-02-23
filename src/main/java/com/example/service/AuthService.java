@@ -1,6 +1,7 @@
 package com.example.service;
 
 import com.example.dto.AuthDTO;
+import com.example.dto.JwtDTO;
 import com.example.dto.ProfileDTO;
 import com.example.entity.ProfileEntity;
 import com.example.enums.AppLanguage;
@@ -22,6 +23,7 @@ public class AuthService {
     private ProfileRepository profileRepository;
     @Autowired
     private ResourceBundleService resourceBundleService;
+
     public ProfileDTO auth(AuthDTO profile, AppLanguage language) {
         Optional<ProfileEntity> optional = profileRepository.findByEmailAndPassword(profile.getEmail(),
                 MDUtil.encode(profile.getPassword()));
@@ -48,4 +50,10 @@ public class AuthService {
         return dto;
     }
 
+    public String emailVerification(String jwt) {
+        JwtDTO decode =
+                JWTUtil.decode(jwt);
+
+
+    }
 }

@@ -1,13 +1,17 @@
 package com.example.controller;
+import com.example.config.CustomUserDetails;
 import com.example.dto.AuthDTO;
 import com.example.dto.ProfileDTO;
 import com.example.enums.AppLanguage;
 import com.example.service.AuthService;
+import com.example.service.ProfileService;
+import com.example.util.SpringSecurityUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
@@ -15,6 +19,8 @@ import org.springframework.web.bind.annotation.*;
 @Tag(name = "Authorization Api list", description = "Api list for Authorization")
 @RequestMapping("/api/auth")
 public class AuthController {
+    @Autowired
+    private ProfileService profileService;
     @Autowired
     private AuthService authService;
     @PostMapping("/login")
@@ -29,5 +35,8 @@ public class AuthController {
         ProfileDTO autht = authService.auth(auth,language);
         return ResponseEntity.ok(autht);
     }
-
+    @GetMapping("/verification/email/{jwt}")
+    public ResponseEntity<String> emailVerification(@PathVariable String jwt) {
+        String s = authService.emailVerification(jwt);
+    }
 }

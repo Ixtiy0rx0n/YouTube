@@ -24,4 +24,10 @@ public class JwtDTO {
         this.email = email;
         this.role = role;
     }
+
+
+    public JwtDTO(ProfileRole role, String email) {
+        this.role = role;
+        this.email = email;
+    }
 }

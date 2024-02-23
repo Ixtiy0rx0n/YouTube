@@ -1,0 +1,2 @@
+insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp);

@@ -24,20 +24,16 @@ public class SpringSecurityConfig {
 
     public static final String[]AUTH_WHITELIST={
             "/api/auth/*",
+            "/api/auth/verification/email/*",
+            "/attach/upload",
+            "/attach/openById/*",
+            "/attach/download/*",
+            "/profile/getProfildteil",
+            "/tag/create",
+            "/tag/getAll"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {
-        // authentication
-//
-//        String password = UUID.randomUUID().toString();
-//        System.out.println("User Pasword mazgi: " + password);
-//
-//        UserDetails user = User.builder()
-//                .username("user")
-//                .password("{noop}" + password)
-//                .roles("ADMIN")
-//                .build();
-
         final DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
         authenticationProvider.setUserDetailsService(userDetailsService);
         authenticationProvider.setPasswordEncoder(passwordEncoder());

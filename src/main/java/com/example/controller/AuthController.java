@@ -35,8 +35,10 @@ public class AuthController {
         ProfileDTO autht = authService.auth(auth,language);
         return ResponseEntity.ok(autht);
     }
-    @GetMapping("/verification/email/{jwt}")
+
+    @PutMapping("/verification/email/{jwt}")
     public ResponseEntity<String> emailVerification(@PathVariable String jwt) {
-        String s = authService.emailVerification(jwt);
+        String s = profileService.emailVerification(jwt,AppLanguage.eng);
+        return ResponseEntity.ok(s);
     }
 }

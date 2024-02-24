@@ -109,7 +109,7 @@ public class JWTUtil {
         jwtBuilder.claim("id",id);
 
         jwtBuilder.expiration(new Date(System.currentTimeMillis() + (tokenLiveTime)));
-        jwtBuilder.issuer("KunUzTest");
+        jwtBuilder.issuer("Yutobe");
         return jwtBuilder.compact();
     }
     public static JwtDTO decodeForSpringSecurity2(String token) {

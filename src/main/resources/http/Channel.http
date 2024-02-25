@@ -52,3 +52,25 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg4NTQ0ODYsImVtYWlsIjoid
 {
   "bannerId": "f5aeacf4-9714-4689-ac9c-5698b6da25f7"
 }
+
+###
+GET http://localhost:8080/channel/getPagination?page=1&size=2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg4NzAwNTMsImVtYWlsIjoiYWJqYWxpbG92b3pvZGpvbkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTcwODk1NjQ1MywiaXNzIjoiS3VuVXpUZXN0In0.S171w1kKHtejXNOwvFhV1VHhcCCPsxqAmXjIYYXYHeMZWz4Fs632Y0bMAj8DySgpF_Uv8pmoTnLYqdG-bm1LBg
+
+###
+GET http://localhost:8080/channel/getById/7bd0504e-be7f-4e05-b643-82f61d0cde9b
+
+#####
+GET http://localhost:8080/channel/changeStatus
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg4ODU3MzMsImVtYWlsIjoidXNlckBtYWlsLnJ1MSIsInJvbGUiOiJST0xFX1VTRVIiLCJleHAiOjE3MDg5NzIxMzMsImlzcyI6Ikt1blV6VGVzdCJ9.iYcNFljdpSM58D4xyx1NrnIrrAck8Fn3gnJs_R6YcxnIlsghSAcn1Z9U4rbWPKe_JwaHCnE4o03hn9mdfncwxA
+
+{
+  "status": "ACTIVE"
+}
+#####
+GET http://localhost:8080/channel/userchannellist
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg4ODU3MzMsImVtYWlsIjoidXNlckBtYWlsLnJ1MSIsInJvbGUiOiJST0xFX1VTRVIiLCJleHAiOjE3MDg5NzIxMzMsImlzcyI6Ikt1blV6VGVzdCJ9.iYcNFljdpSM58D4xyx1NrnIrrAck8Fn3gnJs_R6YcxnIlsghSAcn1Z9U4rbWPKe_JwaHCnE4o03hn9mdfncwxA
+
+
+

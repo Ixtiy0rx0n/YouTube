@@ -6,11 +6,13 @@ import com.example.exp.AppBadException;
 import com.example.repository.ChannelRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
 
 @Service
 @Slf4j
@@ -93,6 +95,56 @@ public class ChannelService {
     }
 
     public PageImpl<ChannelDTO> getPaginationAdmin(Integer page, Integer size) {
+        Pageable pageable= PageRequest.of(page-1,size);
+        Page<ChannelEntity>entityPage=channelRepository.findAll(pageable);
+        List<ChannelEntity> entityList=entityPage.getContent();
+        Long totalSize=entityPage.getTotalElements();
+        List<ChannelDTO>channelDTOList=new ArrayList<>();
+        for (ChannelEntity entity:entityList){
+           channelDTOList.add(toDo(entity));
+        }
+      return new PageImpl<>(channelDTOList,pageable,totalSize);
+    }
+    public ChannelDTO toDo(ChannelEntity entity){
+        ChannelDTO dto=new ChannelDTO();
+        dto.setBannerId(entity.getBannerId());
+        dto.setStatus(dto.getStatus());
+        dto.setDescription(dto.getDescription());
+        dto.setPhotoId(dto.getPhotoId());
+        dto.setProfileId(dto.getProfileId());
+        dto.setName(dto.getName());
+        dto.setSubscribeCount(dto.getSubscribeCount());
+        return dto;
+    }
 
+    public ChannelDTO getById(UUID channelId) {
+
+        Optional<ChannelEntity> optionalChannel = channelRepository.findById(channelId);
+        if (optionalChannel.isEmpty()){
+            return new ChannelDTO();
+        }
+        return toDo(optionalChannel.get());
+    }
+
+    public List<ChannelDTO> changeStatus(ChannelDTO status, Integer profileId) {
+        List<ChannelEntity> byProfileId = channelRepository.findByProfileId(profileId);
+        if (byProfileId.isEmpty()){
+            throw new AppBadException("not found channel");
+        }
+        List<ChannelDTO>channelDTOList=new LinkedList<>();
+        for (ChannelEntity entity:byProfileId){
+            if (entity.getStatus().equals(status.getStatus())){
+                channelDTOList.add(toDo(entity));
+            }
+        }
+        return channelDTOList;
+    }
+
+    public List<ChannelDTO> getUserList(Integer profileId) {
+        List<ChannelDTO>channelDTOList=new ArrayList<>();
+        for (ChannelEntity channelEntity : channelRepository.findByProfileId(profileId)) {
+            channelDTOList.add(toDo(channelEntity));
+        }
+        return channelDTOList;
     }
 }

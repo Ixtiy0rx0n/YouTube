@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.UUID;
 @RestController
 @RequestMapping("/channel")
@@ -54,25 +55,28 @@ public class ChannelController {
         PageImpl<ChannelDTO> paginationAdmin = channelService.getPaginationAdmin(page, size);
         return ResponseEntity.ok(paginationAdmin);
     }
+    //6
+    @GetMapping("/getById/{channelId}")
+    public ResponseEntity<ChannelDTO>getById(@PathVariable UUID channelId){
+        return ResponseEntity.ok(channelService.getById(channelId));
+    }
+    //7
+    @GetMapping("/changeStatus")
+    @PreAuthorize("hasAnyRole('ADMIN','USER','OWNER')")
+    public ResponseEntity<List<ChannelDTO>>changeStatus(@RequestBody ChannelDTO dto){
+        CustomUserDetails customUserDetails= SpringSecurityUtil.getCurrentUser();
+        List<ChannelDTO> channelDTOList = channelService.changeStatus(dto, customUserDetails.getId());
+        return ResponseEntity.ok(channelDTOList);
+    }
+    //8
+    @GetMapping("/userchannellist")
+    public ResponseEntity<List<ChannelDTO>>getUserList(){
+        CustomUserDetails customUserDetails= SpringSecurityUtil.getCurrentUser();
+        return ResponseEntity.ok(channelService.getUserList(customUserDetails.getId()));
+    }
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -30,7 +30,8 @@ public class SpringSecurityConfig {
             "/attach/download/*",
             "/profile/getProfildteil",
             "/tag/create",
-            "/tag/getAll"
+            "/tag/getAll",
+            "/channel/getById/*"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {

@@ -52,6 +52,7 @@ public class ProfileService {
         admin.setEmail(registrationDTO.getEmail());
         admin.setStatus(registrationDTO.getStatus());
         admin.setRole(registrationDTO.getProfileRole());
+        admin.setPhone(registrationDTO.getPhone());
         admin.setPassword(MDUtil.encode(registrationDTO.getPassword()));
         profileRepository.save(admin);
         return "created profile";

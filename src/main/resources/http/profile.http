@@ -1,13 +1,14 @@
 ###Create Profile
 POST localhost:8080/profile/create
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDg4NDk4MzksImVtYWlsIjoiYWJqYWxpbG92b3pvZGpvbkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTcwODkzNjIzOSwiaXNzIjoiS3VuVXpUZXN0In0.eWxiOp-i4o8q-Mvarpg1SdD2rAovSURcLUYSl67_2F8kul0pFGoITbo-PEVgjVu9ZPpXbKYDc0pvBq6A8bEhug
 
 {
-  "name": "Ali",
+  "name": "sarvar",
   "surname": "Abdujalilov",
-  "email": "ozod@gmail.ru2",
-  "phone": "12344",
-  "password": "2222",
+  "email": "user@mail.ru1",
+  "phone": "user",
+  "password": "user",
   "status": "ACTIVE",
   "profileRole": "ROLE_USER"
 }
@@ -16,8 +17,8 @@ POST http://localhost:8080/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "abjalilovozodjon@gmail.com",
-  "password": "123456"
+  "email": "user@mail.ru1",
+  "password": "user"
 }
 ####  Change passord
 # @no-cookie-jar

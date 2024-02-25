@@ -34,5 +34,10 @@ public class ProfileEntity extends BaseEntity {
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
     private ProfileStatus status;
+    @Column(name = "photo_id")
+    private String photoId;
+    @ManyToOne
+    @JoinColumn(name = "photo_id", insertable = false, updatable = false)
+    private AttachEntity attachEntity;
 }
 

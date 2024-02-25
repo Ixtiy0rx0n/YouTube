@@ -18,23 +18,14 @@ public class MailSenderService {
     private  String fromAccount;
 
     public void sendEmail(String toAccount, String subject, String text) {
-//        SimpleMailMessage msg = new SimpleMailMessage();
-//        msg.setTo(toAccount);
-//        msg.setSubject(subject);
-//        msg.setText(text);
-//        msg.setFrom(fromAccount);
-//        javaMailSender.send(msg);
-
         try {
             MimeMessage msg = javaMailSender.createMimeMessage();
             msg.setFrom(fromAccount);
-
             MimeMessageHelper helper = new MimeMessageHelper(msg, true);
             helper.setTo(toAccount);
             helper.setSubject(subject);
             helper.setText(text, true);
             javaMailSender.send(msg);
-
         } catch (MessagingException e) {
             throw new RuntimeException(e);
         }

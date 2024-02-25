@@ -2,6 +2,7 @@ package com.example.controller;
 
 import com.example.config.CustomUserDetails;
 import com.example.dto.ChangeDTO;
+import com.example.dto.ProfileDTO;
 import com.example.dto.RegistrationDTO;
 import com.example.service.ProfileService;
 import com.example.util.SpringSecurityUtil;
@@ -9,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/profile")
@@ -38,6 +41,15 @@ public class ProfileController {
          CustomUserDetails customUserDetails= SpringSecurityUtil.getCurrentUser();
          return ResponseEntity.ok(profileService.updateNameSurname(customUserDetails.getId(),dto));
      }
+     @GetMapping("/getProfildteil")
+     public ResponseEntity<List<ProfileDTO>>getProfileDetail(){
+         return ResponseEntity.ok(profileService.getProfileDetail());
+     }
 
+     @PutMapping("/updatePhoto")
+    public ResponseEntity<String>updatePhoto(@RequestParam(value = "profileId")Integer profileId,
+                                             @RequestParam(value = "photoId")String photoId){
+         return null;
+     }
 
 }

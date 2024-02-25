@@ -2901,3 +2901,6 @@ java.util.NoSuchElementException: No value present
 23 Feb 2024 - 18:44:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 23 Feb 2024 - 18:44:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 23 Feb 2024 - 18:44:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+23 Feb 2024 - 20:02:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23 Feb 2024 - 20:02:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23 Feb 2024 - 20:02:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

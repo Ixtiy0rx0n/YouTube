@@ -1,1 +1,9 @@
 ### Login Profile
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@mail.ru",
+  "password": "827ccb0eea8a706c4c34a16891f84e7b"
+}
+

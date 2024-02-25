@@ -2901,3 +2901,720 @@ java.util.NoSuchElementException: No value present
 23 Feb 2024 - 18:44:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 23 Feb 2024 - 18:44:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 23 Feb 2024 - 18:44:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+25 февр. 2024 - 15:24:13 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 19956 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:24:13 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:24:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:24:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:24:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:24:15 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:24:15 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:24:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:24:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1333 ms
+25 февр. 2024 - 15:24:15 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:24:15 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:24:15 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:24:15 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:24:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:24:16 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3193e21d
+25 февр. 2024 - 15:24:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:24:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:24:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:24:17 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:24:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:24:18 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36117f63, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1227862a, org.springframework.security.web.context.SecurityContextHolderFilter@35738a92, org.springframework.security.web.header.HeaderWriterFilter@71ea9a0d, org.springframework.security.web.authentication.logout.LogoutFilter@7f5ba1bf, com.example.config.JwtTokenFilter@52984065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2005d3e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@575a6540, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55ed76e6, org.springframework.security.web.access.ExceptionTranslationFilter@30c96ea9, org.springframework.security.web.access.intercept.AuthorizationFilter@75364777]
+25 февр. 2024 - 15:24:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:24:18 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.987 seconds (process running for 5.963)
+25 февр. 2024 - 15:24:18 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:24:18 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:24:18 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:24:18 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:24:18 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:24:18 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 5
+-> Applied to database : -176087503
+-> Resolved locally    : -1418556830
+Either revert the changes to the migration, or run repair to update the schema history.
+Need more flexibility with validation rules? Learn more: https://rd.gt/3AbJUZE
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:146)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+25 февр. 2024 - 15:24:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:24:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:24:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:25:01 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 7836 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:25:01 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:25:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:25:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:25:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:25:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:25:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:25:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:25:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1153 ms
+25 февр. 2024 - 15:25:02 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:25:02 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:25:02 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:25:02 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:25:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:25:02 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fee4278
+25 февр. 2024 - 15:25:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:25:03 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:25:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:25:03 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:25:04 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:25:04 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7acb0a44, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63088bbd, org.springframework.security.web.context.SecurityContextHolderFilter@7a461744, org.springframework.security.web.header.HeaderWriterFilter@1440a166, org.springframework.security.web.authentication.logout.LogoutFilter@22b8eaf0, com.example.config.JwtTokenFilter@31b4c003, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173e4b75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78f2cab9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d20d8e6, org.springframework.security.web.access.ExceptionTranslationFilter@445265b0, org.springframework.security.web.access.intercept.AuthorizationFilter@6089c1e3]
+25 февр. 2024 - 15:25:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:25:04 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.042 seconds (process running for 4.739)
+25 февр. 2024 - 15:25:04 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:25:04 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:25:04 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:25:04 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:25:04 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:25:04 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 5
+-> Applied to database : -176087503
+-> Resolved locally    : -1418556830
+Either revert the changes to the migration, or run repair to update the schema history.
+Need more flexibility with validation rules? Learn more: https://rd.gt/3AbJUZE
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:146)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+25 февр. 2024 - 15:25:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:25:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:25:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:25:37 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 13276 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:25:37 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:25:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:25:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:25:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:25:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:25:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:25:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:25:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1147 ms
+25 февр. 2024 - 15:25:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:25:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:25:38 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:25:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:25:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:25:39 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52cb52bd
+25 февр. 2024 - 15:25:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:25:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:25:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:25:40 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:25:41 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:25:41 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@247added, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d7fe300, org.springframework.security.web.context.SecurityContextHolderFilter@1fc02a84, org.springframework.security.web.header.HeaderWriterFilter@1435b17, org.springframework.security.web.authentication.logout.LogoutFilter@257f1509, com.example.config.JwtTokenFilter@7c290246, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76a41af0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a1148f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75375bb0, org.springframework.security.web.access.ExceptionTranslationFilter@6298dafb, org.springframework.security.web.access.intercept.AuthorizationFilter@31fd3db2]
+25 февр. 2024 - 15:25:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:25:41 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.459 seconds (process running for 5.038)
+25 февр. 2024 - 15:25:41 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:25:41 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:25:41 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:25:41 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:25:41 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:25:41 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 5
+-> Applied to database : -176087503
+-> Resolved locally    : -1418556830
+Either revert the changes to the migration, or run repair to update the schema history.
+Need more flexibility with validation rules? Learn more: https://rd.gt/3AbJUZE
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:146)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+25 февр. 2024 - 15:25:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:25:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:25:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:27:59 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 22984 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:27:59 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:28:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:28:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:28:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:28:00 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:28:00 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:28:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:28:00 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1142 ms
+25 февр. 2024 - 15:28:00 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:28:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:28:00 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:28:01 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:28:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:28:01 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38a96593
+25 февр. 2024 - 15:28:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:28:02 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:28:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:28:02 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:28:03 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:28:03 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24484dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35d8a046, org.springframework.security.web.context.SecurityContextHolderFilter@2f803d8, org.springframework.security.web.header.HeaderWriterFilter@575a6540, org.springframework.security.web.authentication.logout.LogoutFilter@4afdcdf6, com.example.config.JwtTokenFilter@5b132063, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a95090a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34ccce55, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@257f1509, org.springframework.security.web.access.ExceptionTranslationFilter@10ec54c3, org.springframework.security.web.access.intercept.AuthorizationFilter@34949460]
+25 февр. 2024 - 15:28:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:28:03 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.514 seconds (process running for 5.292)
+25 февр. 2024 - 15:28:03 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:28:03 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:28:03 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:28:03 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:28:03 INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+25 февр. 2024 - 15:28:03 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.013s)
+25 февр. 2024 - 15:28:03 INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" with baseline ...
+25 февр. 2024 - 15:28:03 INFO  o.f.core.internal.command.DbBaseline - Successfully baselined schema with version: 1
+25 февр. 2024 - 15:28:03 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+25 февр. 2024 - 15:28:03 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - admin"
+25 февр. 2024 - 15:28:03 ERROR o.f.core.internal.command.DbMigrate - Migration of schema "public" to version "2 - admin" failed! Changes successfully rolled back.
+25 февр. 2024 - 15:28:03 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:28:04 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V2__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V2__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V2__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V2__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V2__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V2__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 37 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 43 common frames omitted
+25 февр. 2024 - 15:28:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:28:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:28:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:29:06 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 12432 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:29:06 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:29:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:29:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:29:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:29:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:29:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:29:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:29:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+25 февр. 2024 - 15:29:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:29:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:29:07 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:29:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:29:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:29:08 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63553e9f
+25 февр. 2024 - 15:29:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:29:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:29:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:29:09 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:29:09 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:29:10 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31fd3db2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74a46f81, org.springframework.security.web.context.SecurityContextHolderFilter@2b3b25ad, org.springframework.security.web.header.HeaderWriterFilter@6298dafb, org.springframework.security.web.authentication.logout.LogoutFilter@24484dfb, com.example.config.JwtTokenFilter@4d305059, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fc02a84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c04188, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@247added, org.springframework.security.web.access.ExceptionTranslationFilter@7668edd7, org.springframework.security.web.access.intercept.AuthorizationFilter@139862ca]
+25 февр. 2024 - 15:29:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:29:10 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.646 seconds (process running for 5.237)
+25 февр. 2024 - 15:29:10 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:29:10 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:29:10 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:29:10 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:29:10 INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.011s)
+25 февр. 2024 - 15:29:10 INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" with baseline ...
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbBaseline - Successfully baselined schema with version: 1
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - admin"
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - moderator"
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - user"
+25 февр. 2024 - 15:29:10 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - admin"
+25 февр. 2024 - 15:29:10 ERROR o.f.core.internal.command.DbMigrate - Migration of schema "public" to version "5 - admin" failed! Changes successfully rolled back.
+25 февр. 2024 - 15:29:10 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:29:10 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V5__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V5__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V5__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V5__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V5__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V5__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 37 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 43 common frames omitted
+25 февр. 2024 - 15:29:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:29:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:29:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:30:33 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 15488 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:30:33 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:30:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:30:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:30:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:30:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:30:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:30:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:30:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1013 ms
+25 февр. 2024 - 15:30:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:30:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:30:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:30:34 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:30:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:30:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b6262bc
+25 февр. 2024 - 15:30:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:30:35 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:30:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:30:36 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:30:36 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:30:37 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7beb2bc2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28d07fa4, org.springframework.security.web.context.SecurityContextHolderFilter@98dc042, org.springframework.security.web.header.HeaderWriterFilter@5a429813, org.springframework.security.web.authentication.logout.LogoutFilter@7acb0a44, com.example.config.JwtTokenFilter@c4bb119, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a90c15e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55a46bf3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@298990ab, org.springframework.security.web.access.ExceptionTranslationFilter@32441ed4, org.springframework.security.web.access.intercept.AuthorizationFilter@4d099a37]
+25 февр. 2024 - 15:30:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:30:37 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.306 seconds (process running for 4.865)
+25 февр. 2024 - 15:30:37 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:30:37 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:30:37 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:30:37 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.015s)
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "1 - admin"
+25 февр. 2024 - 15:30:37 INFO  o.f.c.i.s.DefaultSqlScriptExecutor - +----+--------------+--------------+---------+-------+------+----------+-------+------+--------+---------+----------+
+| id | created_date | updated_date | visible | email | name | password | phone | role | status | surname | photo_id |
++----+--------------+--------------+---------+-------+------+----------+-------+------+--------+---------+----------+
+| No rows returned                                                                                                  |
++----+--------------+--------------+---------+-------+------+----------+-------+------+--------+---------+----------+
+
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "2 - admin"
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "3 - moderator"
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "4 - user"
+25 февр. 2024 - 15:30:37 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - admin"
+25 февр. 2024 - 15:30:37 ERROR o.f.core.internal.command.DbMigrate - Migration of schema "public" to version "5 - admin" failed! Changes successfully rolled back.
+25 февр. 2024 - 15:30:37 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25 февр. 2024 - 15:30:37 ERROR o.s.boot.SpringApplication - Application run failed
+org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V5__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V5__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V5__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:382)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:272)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:271)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:244)
+	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:139)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56)
+	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:139)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:97)
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:213)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:140)
+	at com.example.service.CommandLineAppStartupRunner.run(CommandLineAppStartupRunner.java:18)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V5__admin.sql failed
+------------------------------
+SQL State  : 23505
+Error Code : 0
+Message    : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+Location   : db/migration/V5__admin.sql (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes\db\migration\V5__admin.sql)
+Line       : 1
+Statement  : insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
+values ('adminjon', 'adminov', 'admin@mail.ru', '827ccb0eea8a706c4c34a16891f84e7b', '998915721213', 'ACTIVE', 'ROLE_ADMIN', true, current_timestamp)
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:267)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57)
+	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:374)
+	... 37 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9d5dpsf2ufa6rjbi3y0elkdcd"
+  Подробности: Ключ "(email)=(admin@mail.ru)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201)
+	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210)
+	... 43 common frames omitted
+25 февр. 2024 - 15:30:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:30:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+25 февр. 2024 - 15:30:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+25 февр. 2024 - 15:31:25 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.2 with PID 3016 (C:\Ixtiyorxon\Projects\Youtube\YoutTube\target\classes started by msigaming in C:\Ixtiyorxon\Projects\Youtube\YoutTube)
+25 февр. 2024 - 15:31:25 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+25 февр. 2024 - 15:31:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 февр. 2024 - 15:31:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+25 февр. 2024 - 15:31:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+25 февр. 2024 - 15:31:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+25 февр. 2024 - 15:31:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+25 февр. 2024 - 15:31:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+25 февр. 2024 - 15:31:26 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1008 ms
+25 февр. 2024 - 15:31:26 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+25 февр. 2024 - 15:31:26 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+25 февр. 2024 - 15:31:26 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+25 февр. 2024 - 15:31:26 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+25 февр. 2024 - 15:31:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+25 февр. 2024 - 15:31:26 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@218df7d6
+25 февр. 2024 - 15:31:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+25 февр. 2024 - 15:31:27 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25 февр. 2024 - 15:31:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 февр. 2024 - 15:31:28 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+25 февр. 2024 - 15:31:28 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 февр. 2024 - 15:31:28 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31fd3db2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74a46f81, org.springframework.security.web.context.SecurityContextHolderFilter@2b3b25ad, org.springframework.security.web.header.HeaderWriterFilter@6298dafb, org.springframework.security.web.authentication.logout.LogoutFilter@24484dfb, com.example.config.JwtTokenFilter@4d305059, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fc02a84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c04188, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@247added, org.springframework.security.web.access.ExceptionTranslationFilter@7668edd7, org.springframework.security.web.access.intercept.AuthorizationFilter@139862ca]
+25 февр. 2024 - 15:31:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+25 февр. 2024 - 15:31:29 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 4.533 seconds (process running for 5.117)
+25 февр. 2024 - 15:31:29 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+25 февр. 2024 - 15:31:29 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+25 февр. 2024 - 15:31:29 INFO  o.f.c.i.license.VersionPrinter - 
+25 февр. 2024 - 15:31:29 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/youTube (PostgreSQL 15.3)
+25 февр. 2024 - 15:31:29 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.028s)
+25 февр. 2024 - 15:31:29 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 4
+25 февр. 2024 - 15:31:29 INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version "5 - admin"
+25 февр. 2024 - 15:31:29 INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v5 (execution time 00:00.007s)
+25 февр. 2024 - 15:33:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25 февр. 2024 - 15:33:14 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25 февр. 2024 - 15:33:14 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+25 февр. 2024 - 15:33:14 INFO  c.example.controller.AuthController - Login admin@mail.ru
+25 февр. 2024 - 15:33:14 WARN  com.example.service.AuthService - Email or Password is wrongadmin@mail.ru
+25 февр. 2024 - 15:33:14 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.exp.AppBadException: Email yoki Password xato] with root cause
+com.example.exp.AppBadException: Email yoki Password xato
+	at com.example.service.AuthService.auth(AuthService.java:35)
+	at com.example.controller.AuthController.login(AuthController.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

@@ -27,11 +27,7 @@ public class AuthController {
     @Operation( summary = "Api for login", description = "this api used for authorization")
     public ResponseEntity<ProfileDTO> login(@RequestHeader(value = "Accept-Language",defaultValue = "uz") AppLanguage language,
                                             @RequestBody AuthDTO auth){
-        log.trace("Login In Trace");
-        log.debug("Login In Debug");
         log.info("Login {}",auth.getEmail());
-        log.warn("Login {}",auth.getEmail());
-        log.error("Login {}",auth.getEmail());
         ProfileDTO autht = authService.auth(auth,language);
         return ResponseEntity.ok(autht);
     }

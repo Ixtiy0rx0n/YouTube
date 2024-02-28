@@ -31,7 +31,8 @@ public class SpringSecurityConfig {
             "/profile/getProfildteil",
             "/tag/create",
             "/tag/getAll",
-            "/channel/getById/*"
+            "/channel/getById/*",
+            "/controller/getAll"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {

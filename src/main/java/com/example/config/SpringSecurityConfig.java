@@ -23,21 +23,17 @@ public class SpringSecurityConfig {
     private JwtTokenFilter jwtTokenFilter;
 
     public static final String[]AUTH_WHITELIST={
-      "/profile/*"
+            "/api/auth/*",
+            "/api/auth/verification/email/*",
+            "/attach/upload",
+            "/attach/openById/*",
+            "/attach/download/*",
+            "/profile/getProfildteil",
+            "/tag/create",
+            "/tag/getAll"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {
-        // authentication
-//
-//        String password = UUID.randomUUID().toString();
-//        System.out.println("User Pasword mazgi: " + password);
-//
-//        UserDetails user = User.builder()
-//                .username("user")
-//                .password("{noop}" + password)
-//                .roles("ADMIN")
-//                .build();
-
         final DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
         authenticationProvider.setUserDetailsService(userDetailsService);
         authenticationProvider.setPasswordEncoder(passwordEncoder());
@@ -55,7 +51,6 @@ public class SpringSecurityConfig {
                     .requestMatchers("/articletype/adm/*").hasRole("ADMIN")
                     .requestMatchers("/category/adm/*").hasRole("ADMIN")
                     .requestMatchers("/article/publish").hasAnyRole("ADMIN","PUBLISHER")
-//                    .requestMatchers("/profile","/profile/*").hasRole("ADMIN")
                     .anyRequest()
                     .authenticated();
         });

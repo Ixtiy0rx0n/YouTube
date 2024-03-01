@@ -1,40 +1,46 @@
-//package com.example.entity;
-//
-//import com.example.enums.ChannelStatus;
-//import jakarta.persistence.*;
-//import lombok.Getter;
-//import lombok.Setter;
-//import org.hibernate.annotations.GenericGenerator;
-//
-//@Setter
-//@Getter
-//@Entity
-//@Table(name = "channel")
-//public class ChannelEntity {
-//    @Id
-//    @GeneratedValue(generator = "UUID")
-//    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
-//    private Integer id;
-//
-//    @Column(name = "name", nullable = false)
-//    private String name;
-//
-//    @Column(name = "username", nullable = false)
-//    private String username;
-//
-//    @Column(name = "description", nullable = false)
-//    private String description;
-//
-//    @Column(name = "status",nullable = false)
-//    private ChannelStatus status;
-//
-//    @Column(name = "profile_id", nullable = false)
-//    private Integer profileId;
-//
-//    @ManyToOne
-//    @JoinColumn(name = "profile_id", nullable = false)
-//    private ProfileEntity profile;
-//    @Column(name = "subscribe_count")
-//    private Integer subscribeCount;
-//
-//}
+package com.example.entity;
+
+import com.example.enums.ChannelStatus;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+import org.hibernate.annotations.GenericGenerator;
+@Getter
+@Setter
+@Entity
+@Table(name = "channel_entity")
+public class ChannelEntity {
+    @Id
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    private String id;
+
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "photo_id")
+    private String photoId;
+    @OneToOne
+    @JoinColumn(name = "photo_id", insertable = false, updatable = false)
+    private AttachEntity attachEntity;
+
+    @Column(name = "description",columnDefinition = "TEXT")
+    private String description;
+
+    @Column(name = "status")
+    @Enumerated(EnumType.STRING)
+    private ChannelStatus status;
+
+    @Column(name = "banner_id")
+    private String bannerId;
+    @OneToOne
+    @JoinColumn(name = "banner_id", insertable = false, updatable = false)
+    private AttachEntity bannerEntity;
+
+
+    @Column(name = "profile_id")
+    private Integer profileId;
+    @ManyToOne
+    @JoinColumn(name = "profile_id", insertable = false, updatable = false)
+    private ProfileEntity profileEntity;
+
+}

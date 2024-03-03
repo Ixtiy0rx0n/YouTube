@@ -23,4 +23,6 @@ public class AttachEntity {
     private String path;
     @Column(name = "created_date")
     private LocalDateTime createdData;
+    @Column(name = "duration")
+    private Long duration;
 }

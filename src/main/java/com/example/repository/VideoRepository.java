@@ -1,6 +1,11 @@
 package com.example.repository;
 
-public interface VideoRepository {
+import com.example.entity.VideoEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface VideoRepository extends JpaRepository<VideoEntity, UUID> {
 
 //    @Query(value = "select v.id as videoId, v.title, v.preview_attach_id, v.published_date,  v.view_count," +
 //            "       c.id as channelId, c.name as channelName, c.photo_id" +
@@ -27,4 +32,6 @@ public interface VideoRepository {
 //    Page<VideoShortInfoPaginationMapper> getVideoListForAdmin(Pageable pageable);
 //    //  (VideShortInfo + owner (is,name,surname) + [playlist (id,name))]
 
+
+    
 }

@@ -1,7 +1,7 @@
 package com.example.controller;
 
 import com.example.config.CustomUserDetails;
-import com.example.dto.PlayListShortInfo;
+import com.example.dto.info.PlayListShortInfo;
 import com.example.dto.PlaylistDTO;
 import com.example.enums.ProfileRole;
 import com.example.service.PlayListService;

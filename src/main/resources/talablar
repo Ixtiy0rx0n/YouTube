@@ -110,7 +110,7 @@
     6. Playlist List By UserId (order by order number desc) (ADMIN)
         PlayListInfo
     7. Get User Playlist (order by order number desc) (murojat qilgan user ni)
-        PlayListShortInfo
+        PlayListShortInfo///// davomi bor
     8. Get Channel Play List By ChannelKey (order by order_num desc) (only Public)
         PlayListShortInfo
         Example:  https://www.youtube.com/channel/UCFoy0KOV9sihL61PJSh7x1g/playlists
@@ -138,7 +138,7 @@
     6. Search video by Title
         VideShortInfo
     7. Get video by tag_id with pagination
-            VideShortInfo
+            VideShortInfo//////////// davomi bor
     8. Get Video By id (If Status PRIVATE allow only for OWNER or ADMIN)
         VideFullInfo
     9. Get Video List Pagination (ADMIN)
@@ -156,7 +156,7 @@
     VideShortInfo(id,title, preview_attach(id,url),
                    published_date, channel(id,name,photo(url)),
                    view_count,duration)
-    VidePlayListInfo(id,title, preview_attach(id,url), view_count,
+      VidePlayListInfo(id,title, preview_attach(id,url), view_count,
                        published_date,duration)
 ---------------
 8. PlaylistVideo
@@ -200,7 +200,7 @@
     CommentInfo
         id,content,created_date,like_count,dislike_count,
         profile(id,name,surname,photo(id,url))
-
+-----------
 11. Subscription
     1. Create User Subscription (USER)
         channel_id,notification_type (keladigna parametr)
@@ -215,7 +215,7 @@
 
         SubscriptionInfo
             id,channel(id,name,photo(id,url)),notification_type
-
+--------------
 12. VideoLike
     1. Create Video like
     2. Remove Video Like
@@ -236,7 +236,7 @@
 
         CommentLikeInfo
         id,profile_id,comment_id,created_date,type(Like,Dislike)
-
+---------------
 14. Report
     1. Create repost (USER)
     2. ReportList Pagination ADMIN
@@ -248,6 +248,7 @@
     RepostInfo
         id,profile(id,name,surname,photo(id,url)),content,
             entity_id(channel/video)),type(channel,video)
+--------------
 15. Email history
     1. Get email pagination (ADMIN)
     2. Get Email pagination by email

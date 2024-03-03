@@ -1,0 +1,1220 @@
+02 Mar 2024 - 11:42:11 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 12308 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:42:11 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:42:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:42:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:42:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:42:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:42:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:42:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:42:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2377 ms
+02 Mar 2024 - 11:42:14 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:42:14 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:42:14 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:42:14 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:42:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:42:14 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ef0e576
+02 Mar 2024 - 11:42:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:42:16 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:42:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:42:16 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:42:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:42:17 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1160c54b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@363b7709, org.springframework.security.web.context.SecurityContextHolderFilter@75be6796, org.springframework.security.web.header.HeaderWriterFilter@52688730, org.springframework.security.web.authentication.logout.LogoutFilter@1080234b, com.example.config.JwtTokenFilter@77a6aa9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f03e5f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6725f9e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5034e0c6, org.springframework.security.web.access.ExceptionTranslationFilter@9760f17, org.springframework.security.web.access.intercept.AuthorizationFilter@312af870]
+02 Mar 2024 - 11:42:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:42:18 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.986 seconds (process running for 7.967)
+02 Mar 2024 - 11:42:18 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:42:18 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:42:18 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:42:18 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:42:18 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.026s)
+02 Mar 2024 - 11:42:18 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:42:18 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:42:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 11:42:43 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 11:42:43 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 11:42:43 INFO  c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 11:42:43 WARN  c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 11:42:43 ERROR c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 11:45:26 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:45:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 11:45:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 11:45:33 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 11104 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:45:33 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:45:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:45:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:45:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:45:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:45:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:45:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:45:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1523 ms
+02 Mar 2024 - 11:45:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:45:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:45:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:45:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:45:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:45:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7adae08e
+02 Mar 2024 - 11:45:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:45:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:45:36 WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists video_entity alter column status set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists video_entity alter column status set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:333)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:685)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:488)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 123 common frames omitted
+02 Mar 2024 - 11:45:36 WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists video_entity alter column type set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists video_entity alter column type set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:333)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:685)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:488)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 123 common frames omitted
+02 Mar 2024 - 11:45:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:45:37 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:45:38 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:45:38 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bb1ba54, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25727f74, org.springframework.security.web.context.SecurityContextHolderFilter@9760f17, org.springframework.security.web.header.HeaderWriterFilter@10014459, org.springframework.security.web.authentication.logout.LogoutFilter@7c8ecc27, com.example.config.JwtTokenFilter@6a0d47e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52688730, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2227c82d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6999dca2, org.springframework.security.web.access.ExceptionTranslationFilter@3ddec942, org.springframework.security.web.access.intercept.AuthorizationFilter@6e245068]
+02 Mar 2024 - 11:45:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:45:39 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.533 seconds (process running for 7.402)
+02 Mar 2024 - 11:45:39 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:45:39 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:45:39 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:45:39 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:45:39 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.022s)
+02 Mar 2024 - 11:45:39 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:45:39 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:45:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 11:45:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 11:45:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+02 Mar 2024 - 11:46:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:46:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 11:46:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 11:46:11 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 16380 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:46:11 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:46:12 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:46:12 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:46:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:46:13 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:46:13 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:46:13 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:46:13 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+02 Mar 2024 - 11:46:13 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:46:13 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:46:13 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:46:13 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:46:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:46:13 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247bbfba
+02 Mar 2024 - 11:46:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:46:15 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:46:15 WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists video_entity alter column status set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists video_entity alter column status set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:333)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:685)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:488)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 123 common frames omitted
+02 Mar 2024 - 11:46:15 WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists video_entity alter column type set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists video_entity alter column type set data type varchar(255)" via JDBC [ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:333)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:685)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:488)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.YouTubeApplication.main(YouTubeApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying >= integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 123 common frames omitted
+02 Mar 2024 - 11:46:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:46:15 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:46:16 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:46:16 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5034e0c6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b88d294, org.springframework.security.web.context.SecurityContextHolderFilter@7f03e5f4, org.springframework.security.web.header.HeaderWriterFilter@1b9075c9, org.springframework.security.web.authentication.logout.LogoutFilter@6e245068, com.example.config.JwtTokenFilter@270a3cef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6121b045, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b8ab2f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cd50433, org.springframework.security.web.access.ExceptionTranslationFilter@52688730, org.springframework.security.web.access.intercept.AuthorizationFilter@1160c54b]
+02 Mar 2024 - 11:46:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:46:17 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.923 seconds (process running for 6.621)
+02 Mar 2024 - 11:46:17 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:46:17 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:46:17 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:46:17 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:46:17 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.021s)
+02 Mar 2024 - 11:46:17 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:46:17 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:46:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:46:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 11:46:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 11:46:56 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 9228 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:46:56 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:46:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:46:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:46:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:46:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:46:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:46:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:46:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1446 ms
+02 Mar 2024 - 11:46:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:46:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:46:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:46:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:46:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:46:58 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@273aaab7
+02 Mar 2024 - 11:46:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:46:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:46:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:47:00 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:47:00 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:47:01 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25dc8147, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5aeb2c8a, org.springframework.security.web.context.SecurityContextHolderFilter@79d538c1, org.springframework.security.web.header.HeaderWriterFilter@15cba6dc, org.springframework.security.web.authentication.logout.LogoutFilter@19858f26, com.example.config.JwtTokenFilter@e5bce8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69eb88a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2db15764, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@962e03a, org.springframework.security.web.access.ExceptionTranslationFilter@69abff1d, org.springframework.security.web.access.intercept.AuthorizationFilter@7bb50de0]
+02 Mar 2024 - 11:47:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:47:01 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.832 seconds (process running for 6.539)
+02 Mar 2024 - 11:47:01 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:47:01 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:47:01 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:47:01 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:47:01 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.020s)
+02 Mar 2024 - 11:47:01 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:47:01 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:47:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 11:47:07 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 11:47:07 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 11:47:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:47:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 11:47:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 11:47:54 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 8616 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:47:54 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:47:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:47:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:47:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:47:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:47:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:47:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:47:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1635 ms
+02 Mar 2024 - 11:47:55 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:47:55 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:47:56 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:47:56 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:47:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:47:56 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17c53dfb
+02 Mar 2024 - 11:47:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:47:57 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:47:57 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:47:58 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:47:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:47:59 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19858f26, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c14ed24, org.springframework.security.web.context.SecurityContextHolderFilter@654322b0, org.springframework.security.web.header.HeaderWriterFilter@5ffae42f, org.springframework.security.web.authentication.logout.LogoutFilter@6725f9e0, com.example.config.JwtTokenFilter@7d44e3c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@648ec9f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@158119bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@523cc8b4, org.springframework.security.web.access.ExceptionTranslationFilter@414b5798, org.springframework.security.web.access.intercept.AuthorizationFilter@ce24a98]
+02 Mar 2024 - 11:47:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:47:59 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.119 seconds (process running for 6.9)
+02 Mar 2024 - 11:47:59 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:47:59 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:47:59 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:47:59 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:47:59 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.022s)
+02 Mar 2024 - 11:47:59 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:47:59 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:48:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 11:48:04 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 11:48:04 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 11:50:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:50:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 11:50:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 11:50:10 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 15592 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 11:50:10 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 11:50:11 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 11:50:11 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 11:50:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 11:50:12 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 11:50:12 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 11:50:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 11:50:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1634 ms
+02 Mar 2024 - 11:50:12 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 11:50:12 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 11:50:12 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 11:50:13 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 11:50:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 11:50:13 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e81617a
+02 Mar 2024 - 11:50:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 11:50:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 11:50:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 11:50:14 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 11:50:15 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 11:50:16 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52688730, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2227c82d, org.springframework.security.web.context.SecurityContextHolderFilter@77e8492f, org.springframework.security.web.header.HeaderWriterFilter@7bb3cbb4, org.springframework.security.web.authentication.logout.LogoutFilter@5ae06c93, com.example.config.JwtTokenFilter@49467fc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f355321, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@260d878a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b9075c9, org.springframework.security.web.access.ExceptionTranslationFilter@51a7ee4e, org.springframework.security.web.access.intercept.AuthorizationFilter@9760f17]
+02 Mar 2024 - 11:50:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 11:50:16 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.124 seconds (process running for 6.845)
+02 Mar 2024 - 11:50:16 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 11:50:16 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 11:50:16 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 11:50:16 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 11:50:16 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.020s)
+02 Mar 2024 - 11:50:16 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 11:50:16 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 11:50:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 11:50:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 11:50:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 12:04:57 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:04:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 12:04:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 12:05:03 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 4652 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 12:05:03 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 12:05:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 12:05:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 12:05:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 12:05:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 12:05:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 12:05:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 12:05:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1710 ms
+02 Mar 2024 - 12:05:05 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 12:05:05 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 12:05:05 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 12:05:05 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 12:05:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 12:05:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31940704
+02 Mar 2024 - 12:05:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 12:05:07 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 12:05:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:05:07 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 12:05:08 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 12:05:09 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6364d449, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fabe3f8, org.springframework.security.web.context.SecurityContextHolderFilter@414b5798, org.springframework.security.web.header.HeaderWriterFilter@3054551f, org.springframework.security.web.authentication.logout.LogoutFilter@2227c82d, com.example.config.JwtTokenFilter@47d7e8b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ffae42f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58182d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11a88d87, org.springframework.security.web.access.ExceptionTranslationFilter@1f664881, org.springframework.security.web.access.intercept.AuthorizationFilter@4b8ab2f8]
+02 Mar 2024 - 12:05:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 12:05:09 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.819 seconds (process running for 7.611)
+02 Mar 2024 - 12:05:09 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 12:05:09 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 12:05:09 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 12:05:09 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 12:05:09 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.021s)
+02 Mar 2024 - 12:05:09 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 12:05:09 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 12:05:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 12:05:50 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 12:05:50 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 12:06:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:06:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 12:06:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 12:06:20 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 2028 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 12:06:20 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 12:06:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 12:06:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 12:06:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 12:06:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 12:06:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 12:06:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 12:06:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1398 ms
+02 Mar 2024 - 12:06:21 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 12:06:21 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 12:06:22 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 12:06:22 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 12:06:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 12:06:22 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@273aaab7
+02 Mar 2024 - 12:06:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 12:06:23 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 12:06:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:06:24 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 12:06:24 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 12:06:25 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@11a88d87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ce24a98, org.springframework.security.web.context.SecurityContextHolderFilter@5ffae42f, org.springframework.security.web.header.HeaderWriterFilter@4603845b, org.springframework.security.web.authentication.logout.LogoutFilter@75be6796, com.example.config.JwtTokenFilter@7d8c264, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eedf268, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@654322b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@496101d1, org.springframework.security.web.access.ExceptionTranslationFilter@3054551f, org.springframework.security.web.access.intercept.AuthorizationFilter@6364d449]
+02 Mar 2024 - 12:06:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 12:06:25 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.83 seconds (process running for 6.495)
+02 Mar 2024 - 12:06:25 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 12:06:25 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 12:06:25 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 12:06:25 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 12:06:25 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.021s)
+02 Mar 2024 - 12:06:25 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 12:06:25 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 12:06:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 12:06:38 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 12:06:38 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 12:07:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:07:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 12:07:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 12:07:14 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 3468 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 12:07:14 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 12:07:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 12:07:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 12:07:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 12:07:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 12:07:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 12:07:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 12:07:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1460 ms
+02 Mar 2024 - 12:07:16 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 12:07:16 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 12:07:16 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 12:07:16 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 12:07:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 12:07:16 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247bbfba
+02 Mar 2024 - 12:07:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 12:07:18 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 12:07:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 12:07:18 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 12:07:19 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 12:07:19 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5aeb2c8a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@962e03a, org.springframework.security.web.context.SecurityContextHolderFilter@31e08c61, org.springframework.security.web.header.HeaderWriterFilter@81a193b, org.springframework.security.web.authentication.logout.LogoutFilter@4c14ed24, com.example.config.JwtTokenFilter@e5bce8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2db15764, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d727123, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@472073bb, org.springframework.security.web.access.ExceptionTranslationFilter@7980eb2, org.springframework.security.web.access.intercept.AuthorizationFilter@63916a3]
+02 Mar 2024 - 12:07:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 12:07:20 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.08 seconds (process running for 6.88)
+02 Mar 2024 - 12:07:20 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 12:07:20 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 12:07:20 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 12:07:20 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 12:07:20 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.022s)
+02 Mar 2024 - 12:07:20 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 12:07:20 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 12:07:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 12:07:25 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 12:07:25 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 12:58:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m5s898ms364µs800ns).
+02 Mar 2024 - 13:04:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:04:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:04:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:04:55 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 15204 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:04:55 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:04:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:04:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:04:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:04:56 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:04:56 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:04:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:04:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1527 ms
+02 Mar 2024 - 13:04:56 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:04:56 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:04:56 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:04:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:04:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:04:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41d20f06
+02 Mar 2024 - 13:04:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:04:58 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:04:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:04:59 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:04:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:04:59 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4170ee0f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b95fdf2, org.springframework.security.web.context.SecurityContextHolderFilter@3a5812dc, org.springframework.security.web.header.HeaderWriterFilter@6bed8d98, org.springframework.security.web.authentication.logout.LogoutFilter@37905236, com.example.config.JwtTokenFilter@6a0d47e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@495c3d15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10014459, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1080234b, org.springframework.security.web.access.ExceptionTranslationFilter@64641bb2, org.springframework.security.web.access.intercept.AuthorizationFilter@5f8089d2]
+02 Mar 2024 - 13:05:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:05:00 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.565 seconds (process running for 6.203)
+02 Mar 2024 - 13:05:00 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:05:00 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:05:00 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:05:00 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:05:00 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.019s)
+02 Mar 2024 - 13:05:00 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:05:00 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:32:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:32:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:32:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:38:02 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 15148 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:38:02 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:38:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:38:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:38:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:38:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:38:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:38:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:38:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+02 Mar 2024 - 13:38:04 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:38:04 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:38:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:38:04 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:38:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:38:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e753289
+02 Mar 2024 - 13:38:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:38:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:38:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:38:06 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:38:06 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:38:07 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1080234b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28e2d3ed, org.springframework.security.web.context.SecurityContextHolderFilter@495c3d15, org.springframework.security.web.header.HeaderWriterFilter@5ae06c93, org.springframework.security.web.authentication.logout.LogoutFilter@2de22e7, com.example.config.JwtTokenFilter@27aa0720, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ab56a77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@216a3aba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e245068, org.springframework.security.web.access.ExceptionTranslationFilter@6bed8d98, org.springframework.security.web.access.intercept.AuthorizationFilter@4170ee0f]
+02 Mar 2024 - 13:38:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:38:07 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.581 seconds (process running for 6.253)
+02 Mar 2024 - 13:38:07 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:38:07 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:38:07 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:38:07 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:38:07 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.019s)
+02 Mar 2024 - 13:38:07 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:38:07 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:38:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 13:38:20 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 13:38:20 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 13:38:20 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'page' for method parameter type Integer is not present]
+02 Mar 2024 - 13:39:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:39:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:39:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:39:05 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 3468 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:39:05 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:39:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:39:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:39:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:39:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:39:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:39:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:39:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1389 ms
+02 Mar 2024 - 13:39:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:39:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:39:07 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:39:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:39:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:39:07 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@521ba38f
+02 Mar 2024 - 13:39:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:39:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:39:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:39:09 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:39:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:39:10 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bc6a43c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f3fa154, org.springframework.security.web.context.SecurityContextHolderFilter@7ddf7e77, org.springframework.security.web.header.HeaderWriterFilter@2db15764, org.springframework.security.web.authentication.logout.LogoutFilter@7900d917, com.example.config.JwtTokenFilter@6b5c4b75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34e785db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f83b506, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6193340e, org.springframework.security.web.access.ExceptionTranslationFilter@31e08c61, org.springframework.security.web.access.intercept.AuthorizationFilter@63714a1]
+02 Mar 2024 - 13:39:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:39:10 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.807 seconds (process running for 6.482)
+02 Mar 2024 - 13:39:10 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:39:10 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:39:10 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:39:10 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:39:10 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.019s)
+02 Mar 2024 - 13:39:10 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:39:10 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:39:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 13:39:29 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 13:39:29 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 13:39:29 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'page' for method parameter type Integer is not present]
+02 Mar 2024 - 13:41:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:41:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:41:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:41:59 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 9652 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:41:59 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:42:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:42:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:42:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:42:00 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:42:00 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:42:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:42:00 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1593 ms
+02 Mar 2024 - 13:42:01 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:42:01 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:42:01 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:42:01 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:42:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:42:01 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7433ca19
+02 Mar 2024 - 13:42:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:42:02 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:42:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:42:03 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:42:03 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:42:04 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25727f74, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6999dca2, org.springframework.security.web.context.SecurityContextHolderFilter@13cfa1ec, org.springframework.security.web.header.HeaderWriterFilter@6ab56a77, org.springframework.security.web.authentication.logout.LogoutFilter@5f8089d2, com.example.config.JwtTokenFilter@1d12eff1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2227c82d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b9075c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@312af870, org.springframework.security.web.access.ExceptionTranslationFilter@495c3d15, org.springframework.security.web.access.intercept.AuthorizationFilter@aba4a33]
+02 Mar 2024 - 13:42:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:42:04 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.835 seconds (process running for 6.464)
+02 Mar 2024 - 13:42:04 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:42:04 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:42:04 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:42:04 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:42:04 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.019s)
+02 Mar 2024 - 13:42:04 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:42:04 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:42:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 13:42:08 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 13:42:08 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 13:42:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:42:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:42:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:42:52 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 15148 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:42:52 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:42:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:42:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:42:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:42:53 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:42:53 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:42:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:42:53 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1464 ms
+02 Mar 2024 - 13:42:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:42:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:42:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:42:54 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:42:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:42:54 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e8f23ad
+02 Mar 2024 - 13:42:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:42:55 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:42:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:42:56 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:42:56 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:42:57 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25727f74, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6999dca2, org.springframework.security.web.context.SecurityContextHolderFilter@13cfa1ec, org.springframework.security.web.header.HeaderWriterFilter@6ab56a77, org.springframework.security.web.authentication.logout.LogoutFilter@5f8089d2, com.example.config.JwtTokenFilter@4ecc4b43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2227c82d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b9075c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@312af870, org.springframework.security.web.access.ExceptionTranslationFilter@495c3d15, org.springframework.security.web.access.intercept.AuthorizationFilter@aba4a33]
+02 Mar 2024 - 13:42:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:42:57 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.418 seconds (process running for 6.071)
+02 Mar 2024 - 13:42:57 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:42:57 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:42:57 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:42:57 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:42:57 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.021s)
+02 Mar 2024 - 13:42:57 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:42:57 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:42:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 13:42:59 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 13:42:59 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 13:43:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:43:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:43:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:43:56 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 6292 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:43:56 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:43:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:43:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:43:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:43:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:43:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:43:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:43:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+02 Mar 2024 - 13:43:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:43:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:43:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:43:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:43:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:43:58 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e753289
+02 Mar 2024 - 13:43:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:43:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:43:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:44:00 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:44:00 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:44:01 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bb1ba54, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25727f74, org.springframework.security.web.context.SecurityContextHolderFilter@9760f17, org.springframework.security.web.header.HeaderWriterFilter@10014459, org.springframework.security.web.authentication.logout.LogoutFilter@7c8ecc27, com.example.config.JwtTokenFilter@6a0d47e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52688730, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2227c82d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6999dca2, org.springframework.security.web.access.ExceptionTranslationFilter@3ddec942, org.springframework.security.web.access.intercept.AuthorizationFilter@6e245068]
+02 Mar 2024 - 13:44:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:44:01 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.802 seconds (process running for 6.516)
+02 Mar 2024 - 13:44:01 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:44:01 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:44:01 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:44:01 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:44:01 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.021s)
+02 Mar 2024 - 13:44:01 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:44:01 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:44:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:44:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 13:44:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 13:44:08 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 6748 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 13:44:08 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 13:44:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 13:44:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 8 JPA repository interfaces.
+02 Mar 2024 - 13:44:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 13:44:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 13:44:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 13:44:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 13:44:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1428 ms
+02 Mar 2024 - 13:44:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 13:44:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 13:44:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 13:44:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 13:44:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 13:44:10 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e753289
+02 Mar 2024 - 13:44:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 13:44:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 13:44:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 13:44:12 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 13:44:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 13:44:13 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e1ac80e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4170ee0f, org.springframework.security.web.context.SecurityContextHolderFilter@5ae06c93, org.springframework.security.web.header.HeaderWriterFilter@4eb5cdae, org.springframework.security.web.authentication.logout.LogoutFilter@158774d3, com.example.config.JwtTokenFilter@179cdf4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ddec942, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@495c3d15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b95fdf2, org.springframework.security.web.access.ExceptionTranslationFilter@4ac7f844, org.springframework.security.web.access.intercept.AuthorizationFilter@7c8ecc27]
+02 Mar 2024 - 13:44:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 13:44:14 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.84 seconds (process running for 6.537)
+02 Mar 2024 - 13:44:14 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 13:44:14 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 13:44:14 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 13:44:14 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 13:44:14 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.019s)
+02 Mar 2024 - 13:44:14 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 13:44:14 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 13:44:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 13:44:18 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 13:44:18 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 14:33:23 INFO  c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 14:33:23 WARN  c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 14:33:23 ERROR c.example.controller.AuthController - Login sarvar@mail.ru1
+02 Mar 2024 - 14:36:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 14:36:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 14:36:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 14:36:22 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 8016 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 14:36:22 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 14:36:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 14:36:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 9 JPA repository interfaces.
+02 Mar 2024 - 14:36:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 14:36:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 14:36:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 14:36:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 14:36:24 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1379 ms
+02 Mar 2024 - 14:36:24 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 14:36:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 14:36:24 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 14:36:24 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 14:36:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 14:36:24 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@782cc5fa
+02 Mar 2024 - 14:36:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 14:36:25 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 14:36:25 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 14:36:26 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 14:36:26 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 14:36:27 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f9d1785, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f9b97dc, org.springframework.security.web.context.SecurityContextHolderFilter@5498d2a2, org.springframework.security.web.header.HeaderWriterFilter@282c3aa0, org.springframework.security.web.authentication.logout.LogoutFilter@1c93f349, com.example.config.JwtTokenFilter@15f3f9cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74a121fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12639753, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25ea3a5f, org.springframework.security.web.access.ExceptionTranslationFilter@12bb0322, org.springframework.security.web.access.intercept.AuthorizationFilter@30a34f07]
+02 Mar 2024 - 14:36:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 14:36:27 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.424 seconds (process running for 6.056)
+02 Mar 2024 - 14:36:27 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 14:36:27 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 14:36:27 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 14:36:27 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 14:36:27 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.032s)
+02 Mar 2024 - 14:36:27 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 14:36:27 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 14:36:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 14:36:35 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 14:36:35 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02 Mar 2024 - 14:37:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 14:37:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 14:37:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02 Mar 2024 - 14:37:39 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 4292 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+02 Mar 2024 - 14:37:39 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+02 Mar 2024 - 14:37:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02 Mar 2024 - 14:37:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 9 JPA repository interfaces.
+02 Mar 2024 - 14:37:40 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+02 Mar 2024 - 14:37:40 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 Mar 2024 - 14:37:40 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+02 Mar 2024 - 14:37:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 Mar 2024 - 14:37:40 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1481 ms
+02 Mar 2024 - 14:37:40 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 Mar 2024 - 14:37:40 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+02 Mar 2024 - 14:37:40 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+02 Mar 2024 - 14:37:41 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+02 Mar 2024 - 14:37:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02 Mar 2024 - 14:37:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d221b20
+02 Mar 2024 - 14:37:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02 Mar 2024 - 14:37:42 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+02 Mar 2024 - 14:37:42 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 14:37:42 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+02 Mar 2024 - 14:37:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 Mar 2024 - 14:37:44 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e4f5062, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c93f349, org.springframework.security.web.context.SecurityContextHolderFilter@31efe094, org.springframework.security.web.header.HeaderWriterFilter@11b5b1f2, org.springframework.security.web.authentication.logout.LogoutFilter@d5d9d92, com.example.config.JwtTokenFilter@5fe19d0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6987a0f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e5e0e75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@473ee461, org.springframework.security.web.access.ExceptionTranslationFilter@58477355, org.springframework.security.web.access.intercept.AuthorizationFilter@7e64b248]
+02 Mar 2024 - 14:37:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+02 Mar 2024 - 14:37:44 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 5.963 seconds (process running for 6.647)
+02 Mar 2024 - 14:37:44 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+02 Mar 2024 - 14:37:44 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+02 Mar 2024 - 14:37:44 INFO  o.f.c.i.license.VersionPrinter - 
+02 Mar 2024 - 14:37:44 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+02 Mar 2024 - 14:37:44 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.022s)
+02 Mar 2024 - 14:37:44 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+02 Mar 2024 - 14:37:44 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+02 Mar 2024 - 14:37:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02 Mar 2024 - 14:37:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02 Mar 2024 - 14:37:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+02 Mar 2024 - 14:40:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02 Mar 2024 - 14:40:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02 Mar 2024 - 14:40:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

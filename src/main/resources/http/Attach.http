@@ -2,9 +2,12 @@ POST http://localhost:8080/attach/upload
 Content-Type: multipart/form-data; boundary=WebAppBoundary
 
 --WebAppBoundary
-Content-Disposition: form-data; name="file"; filename="zari.jpg"
+Content-Disposition: form-data; name="file"; filename="6-video.mp4"
 
-< D:\test\zari\zari.jpg
+#< D:\test\zari\zari.jpg
+D:\videolar\6-video.mp4
+
+#C:\Users\acer\Downloads\Telegram Desktop\2.jpg
 #####
 # @no-cookie-jar
 GET http://localhost:8080/attach/openById/zari.jpg

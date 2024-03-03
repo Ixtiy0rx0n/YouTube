@@ -32,7 +32,10 @@ public class SpringSecurityConfig {
             "/tag/create",
             "/tag/getAll",
             "/channel/getById/*",
-            "/controller/getAll"
+            "/controller/getAll",
+            "/video/getViewCount/*",
+            "/video/getPaginationCategoryId",
+            "/videotag/getVideoTagList/*"
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {

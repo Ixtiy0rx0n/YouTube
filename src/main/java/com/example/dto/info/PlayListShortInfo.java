@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.example.dto.info;
 
 import com.example.enums.PlaylistStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;

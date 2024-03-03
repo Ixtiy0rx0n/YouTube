@@ -1,9 +1,7 @@
 package com.example.service;
 
-import com.example.dto.AttachDTO;
-import com.example.dto.PlayListShortInfo;
+import com.example.dto.info.PlayListShortInfo;
 import com.example.dto.PlaylistDTO;
-import com.example.entity.AttachEntity;
 import com.example.entity.ChannelEntity;
 import com.example.entity.PlayListEntity;
 import com.example.exp.AppBadException;

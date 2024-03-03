@@ -21,7 +21,8 @@ public class AttachController {
     @PostMapping("/upload")
     @Operation( summary = "Attach", description = "this api used for attach")
     public ResponseEntity<?> upload(@RequestParam("file") MultipartFile file){
-        return ResponseEntity.ok(attachService.saveToSystem(file));
+        return ResponseEntity.ok(attachService.save(file));
+        //return ResponseEntity.ok(attachService.saveToSystem(file));
     }
    @GetMapping(value = "/openById/{id}" , produces = MediaType.IMAGE_PNG_VALUE)
    @Operation( summary = "photoById", description = "thid api user photo by id open")

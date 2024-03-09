@@ -35,7 +35,14 @@ public class SpringSecurityConfig {
             "/controller/getAll",
             "/video/getViewCount/*",
             "/video/getPaginationCategoryId",
-            "/videotag/getVideoTagList/*"
+            "/video/getVideoByTitle",
+            "/video/getVideoTag/*",
+            "/videotag/getVideoTagList/*",
+            "/playlistvideo/update/*",
+            "/playlistvideo/deleted",
+            "playlistvideo/getAll/*",
+            "/comment/getCommitVideoId/*"
+
     };
     @Bean
     public AuthenticationProvider authenticationProvider() {

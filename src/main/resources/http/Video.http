@@ -50,6 +50,14 @@ GET http://localhost:8080/video/getViewCount/a4f8d4eb-b66b-47dd-83c9-3b021eda412
 GET http://localhost:8080/video/getPaginationCategoryId?page=1&size=2&categoryId=2
 
 
+###
+GET http://localhost:8080/video/getVideoTag/2
+Content-Type: application/json
+
+{
+  "page": 1,
+  "size": 2
+}
 
 
 

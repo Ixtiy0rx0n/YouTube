@@ -17,8 +17,8 @@ POST http://localhost:8080/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "sarvar@mail.ru1",
-  "password": "sarvar"
+  "email": "abjalilovozodjon@gmail.com",
+  "password": "123456"
 }
 ####  Change passord
 # @no-cookie-jar

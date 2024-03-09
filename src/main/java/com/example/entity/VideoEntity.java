@@ -74,4 +74,5 @@ public class VideoEntity {
     /////14
     @Column(name = "dislike_count")
     private Integer dislikeCount;
+
 }

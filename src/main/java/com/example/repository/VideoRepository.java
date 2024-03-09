@@ -3,6 +3,7 @@ package com.example.repository;
 import com.example.entity.VideoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
 import java.util.UUID;
 
 public interface VideoRepository extends JpaRepository<VideoEntity, UUID> {
@@ -32,6 +33,6 @@ public interface VideoRepository extends JpaRepository<VideoEntity, UUID> {
 //    Page<VideoShortInfoPaginationMapper> getVideoListForAdmin(Pageable pageable);
 //    //  (VideShortInfo + owner (is,name,surname) + [playlist (id,name))]
 
-
+    List<VideoEntity>findByTitle(String title);
     
 }

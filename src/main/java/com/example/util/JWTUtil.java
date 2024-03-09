@@ -1,12 +1,10 @@
 package com.example.util;
 
 import com.example.dto.JwtDTO;
-
-
 import com.example.enums.ProfileRole;
 import io.jsonwebtoken.*;
+
 import javax.crypto.spec.SecretKeySpec;
-import java.security.Signature;
 import java.util.Date;
 
 public class JWTUtil {
@@ -109,7 +107,7 @@ public class JWTUtil {
         jwtBuilder.claim("id",id);
 
         jwtBuilder.expiration(new Date(System.currentTimeMillis() + (tokenLiveTime)));
-        jwtBuilder.issuer("Yutobe");
+        jwtBuilder.issuer("KunUzTest");
         return jwtBuilder.compact();
     }
     public static JwtDTO decodeForSpringSecurity2(String token) {

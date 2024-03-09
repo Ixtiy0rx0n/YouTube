@@ -1,10 +1,14 @@
 package com.example.service;
 
+import com.example.dto.ChannelDTO;
 import com.example.dto.VideoDTO;
 import com.example.dto.info.VideoShortInfo;
+import com.example.entity.ChannelEntity;
 import com.example.entity.VideoEntity;
+import com.example.entity.VideoTagEntity;
 import com.example.exp.AppBadException;
 import com.example.repository.VideoRepository;
+import com.example.repository.VideoTagRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -22,6 +26,8 @@ import java.util.UUID;
 public class VideoService {
     @Autowired
     private VideoRepository videoRepository;
+    @Autowired
+    private VideoTagRepository videoTagRepository;
     public String create(VideoDTO dto) {
         videoRepository.save(toEntity(dto));
         return "created video";
@@ -111,4 +117,35 @@ public class VideoService {
          info.setDuration(entity.getAttachEntity().getDuration());
          return info;
     }
+
+
+    public List<VideoShortInfo> getVideoTitle(String name) {
+        List<VideoEntity> entityList = videoRepository.findByTitle(name);
+        List<VideoShortInfo>infos=new ArrayList<>();
+        for (VideoEntity entity:entityList){
+            infos.add(toVideoShortInfo(entity));
+        }
+        return infos;
+    }
+    public PageImpl<VideoShortInfo> getVideoTag(Integer tagId,Integer page,Integer size) {
+        Pageable pageable= PageRequest.of(page-1,size);
+
+        Page<VideoTagEntity>entityPage=videoTagRepository.findAll(pageable);
+        List<VideoTagEntity> entityList=entityPage.getContent();
+        List<VideoEntity>videoEntityList=new ArrayList<>();
+        for (VideoTagEntity entity:entityList){
+            if (entity.getTagId().equals(tagId)){
+                videoEntityList.add(entity.getVideoEntity());
+            }
+        }
+        List<VideoShortInfo> videoShortInfoList=new ArrayList<>();
+        for (VideoEntity entity:videoEntityList){
+            videoShortInfoList.add(toVideoShortInfo(entity));
+        }
+        Long totalSize=(long)videoShortInfoList.size();
+
+        return new PageImpl<>(videoShortInfoList,pageable,totalSize);
+    }
+
+
 }

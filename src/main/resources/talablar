@@ -212,7 +212,7 @@
     2. Change Subscription Status (USER)
         channel_id,status
     3. Change Subscription Notification type (USER)
-        channel_id,notification_type
+       channel_id,notification_type
     4. Get User Subscription List (only Active) (murojat qilgan user)
         SubscriptionInfo
     5. Get User Subscription List By UserId (only Active) (ADMIN)

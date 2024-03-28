@@ -1,2 +1,0 @@
-insert into profile (name, surname, email, password,phone, status, role, visible, created_date)
-values ('Ali', 'Abdujalilov', 'ozod@gmail.ru1', 'b59c67bf196a4758191e42f76670ceba', '12342', 'ACTIVE', 'ROLE_MODERATOR', true, current_timestamp);

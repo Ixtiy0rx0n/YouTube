@@ -1,79 +1,45 @@
-08 Mar 2024 - 17:34:03 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 4832 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
-08 Mar 2024 - 17:34:03 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
-08 Mar 2024 - 17:34:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-08 Mar 2024 - 17:34:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 11 JPA repository interfaces.
-08 Mar 2024 - 17:34:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-08 Mar 2024 - 17:34:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-08 Mar 2024 - 17:34:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-08 Mar 2024 - 17:34:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-08 Mar 2024 - 17:34:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2983 ms
-08 Mar 2024 - 17:34:06 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-08 Mar 2024 - 17:34:06 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
-08 Mar 2024 - 17:34:06 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-08 Mar 2024 - 17:34:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-08 Mar 2024 - 17:34:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-08 Mar 2024 - 17:34:07 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cbdd1c5
-08 Mar 2024 - 17:34:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-08 Mar 2024 - 17:34:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-08 Mar 2024 - 17:34:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-08 Mar 2024 - 17:34:09 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-08 Mar 2024 - 17:34:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-08 Mar 2024 - 17:34:10 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8fa4647, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53a2dbf2, org.springframework.security.web.context.SecurityContextHolderFilter@238fcafa, org.springframework.security.web.header.HeaderWriterFilter@123e87cd, org.springframework.security.web.authentication.logout.LogoutFilter@791b9887, com.example.config.JwtTokenFilter@5bbf8daa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@269bf9e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6114ed6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1817f7f0, org.springframework.security.web.access.ExceptionTranslationFilter@71bebddf, org.springframework.security.web.access.intercept.AuthorizationFilter@16bba8ae]
-08 Mar 2024 - 17:34:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-08 Mar 2024 - 17:34:10 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 7.915 seconds (process running for 8.857)
-08 Mar 2024 - 17:34:10 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
-08 Mar 2024 - 17:34:10 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
-08 Mar 2024 - 17:34:10 INFO  o.f.c.i.license.VersionPrinter - 
-08 Mar 2024 - 17:34:11 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
-08 Mar 2024 - 17:34:11 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.027s)
-08 Mar 2024 - 17:34:11 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
-08 Mar 2024 - 17:34:11 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
-08 Mar 2024 - 17:35:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-08 Mar 2024 - 17:35:20 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-08 Mar 2024 - 17:35:20 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-08 Mar 2024 - 17:35:20 INFO  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
-08 Mar 2024 - 17:35:20 WARN  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
-08 Mar 2024 - 17:35:20 ERROR c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
-08 Mar 2024 - 18:11:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-08 Mar 2024 - 18:11:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-08 Mar 2024 - 18:11:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-08 Mar 2024 - 18:11:33 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 14984 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
-08 Mar 2024 - 18:11:33 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
-08 Mar 2024 - 18:11:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-08 Mar 2024 - 18:11:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 11 JPA repository interfaces.
-08 Mar 2024 - 18:11:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-08 Mar 2024 - 18:11:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-08 Mar 2024 - 18:11:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-08 Mar 2024 - 18:11:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-08 Mar 2024 - 18:11:35 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1574 ms
-08 Mar 2024 - 18:11:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-08 Mar 2024 - 18:11:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
-08 Mar 2024 - 18:11:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-08 Mar 2024 - 18:11:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-08 Mar 2024 - 18:11:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-08 Mar 2024 - 18:11:36 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f60cbf2
-08 Mar 2024 - 18:11:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-08 Mar 2024 - 18:11:37 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-08 Mar 2024 - 18:11:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-08 Mar 2024 - 18:11:38 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-08 Mar 2024 - 18:11:38 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-08 Mar 2024 - 18:11:39 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27476b5f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23d1090, org.springframework.security.web.context.SecurityContextHolderFilter@731819a0, org.springframework.security.web.header.HeaderWriterFilter@6508e82, org.springframework.security.web.authentication.logout.LogoutFilter@14feab02, com.example.config.JwtTokenFilter@623dc0b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c1f435a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@123e87cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46c6541f, org.springframework.security.web.access.ExceptionTranslationFilter@5d237827, org.springframework.security.web.access.intercept.AuthorizationFilter@7326f323]
-08 Mar 2024 - 18:11:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-08 Mar 2024 - 18:11:39 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.191 seconds (process running for 6.89)
-08 Mar 2024 - 18:11:39 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
-08 Mar 2024 - 18:11:39 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
-08 Mar 2024 - 18:11:39 INFO  o.f.c.i.license.VersionPrinter - 
-08 Mar 2024 - 18:11:39 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
-08 Mar 2024 - 18:11:39 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.020s)
-08 Mar 2024 - 18:11:39 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
-08 Mar 2024 - 18:11:39 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
-08 Mar 2024 - 18:12:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-08 Mar 2024 - 18:12:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-08 Mar 2024 - 18:12:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-08 Mar 2024 - 18:12:48 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.exp.AppBadException: not found comment] with root cause
-com.example.exp.AppBadException: not found comment
-	at com.example.service.CommentService.getCommitListProfileId(CommentService.java:119)
-	at com.example.controller.CommentController.getCommitListProfileId(CommentController.java:55)
+28 Mar 2024 - 10:19:54 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 14544 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+28 Mar 2024 - 10:19:54 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+28 Mar 2024 - 10:19:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Mar 2024 - 10:19:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 12 JPA repository interfaces.
+28 Mar 2024 - 10:19:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+28 Mar 2024 - 10:19:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+28 Mar 2024 - 10:19:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+28 Mar 2024 - 10:19:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+28 Mar 2024 - 10:19:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2929 ms
+28 Mar 2024 - 10:19:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Mar 2024 - 10:19:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+28 Mar 2024 - 10:19:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+28 Mar 2024 - 10:19:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+28 Mar 2024 - 10:19:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Mar 2024 - 10:19:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f06ebe0
+28 Mar 2024 - 10:19:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Mar 2024 - 10:19:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+28 Mar 2024 - 10:19:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:19:59 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+28 Mar 2024 - 10:20:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Mar 2024 - 10:20:01 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72117a6c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71b75f99, org.springframework.security.web.context.SecurityContextHolderFilter@64903a20, org.springframework.security.web.header.HeaderWriterFilter@7b14e7dc, org.springframework.security.web.authentication.logout.LogoutFilter@c62d08a, com.example.config.JwtTokenFilter@5481001f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57753d41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@464d25b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e6d9c25, org.springframework.security.web.access.ExceptionTranslationFilter@31cae1e4, org.springframework.security.web.access.intercept.AuthorizationFilter@4c666872]
+28 Mar 2024 - 10:20:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+28 Mar 2024 - 10:20:01 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 8.366 seconds (process running for 9.531)
+28 Mar 2024 - 10:20:01 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+28 Mar 2024 - 10:20:01 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+28 Mar 2024 - 10:20:01 INFO  o.f.c.i.license.VersionPrinter - 
+28 Mar 2024 - 10:20:01 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+28 Mar 2024 - 10:20:01 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.018s)
+28 Mar 2024 - 10:20:01 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+28 Mar 2024 - 10:20:01 ERROR o.f.core.internal.command.DbMigrate - Schema "public" has version 5, but no migration could be resolved in the configured locations !
+28 Mar 2024 - 10:20:01 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+28 Mar 2024 - 10:20:09 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28 Mar 2024 - 10:20:09 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28 Mar 2024 - 10:20:09 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+28 Mar 2024 - 10:20:09 INFO  c.example.controller.AuthController - Login user@mail.ru1
+28 Mar 2024 - 10:20:09 WARN  c.example.controller.AuthController - Login user@mail.ru1
+28 Mar 2024 - 10:20:09 ERROR c.example.controller.AuthController - Login user@mail.ru1
+28 Mar 2024 - 10:21:12 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.entity.ChannelEntity.getName()" because the return value of "com.example.entity.SubscriptionEntity.getChannelEntity()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.entity.ChannelEntity.getName()" because the return value of "com.example.entity.SubscriptionEntity.getChannelEntity()" is null
+	at com.example.service.SubscriptionService.getSubscriptionInfo(SubscriptionService.java:66)
+	at com.example.service.SubscriptionService.getUserSubscription(SubscriptionService.java:58)
+	at com.example.controller.SubscriptionController.getusersubscription(SubscriptionController.java:49)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
@@ -84,7 +50,7 @@ com.example.exp.AppBadException: not found comment
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at com.example.controller.CommentController$$SpringCGLIB$$0.getCommitListProfileId(<generated>)
+	at com.example.controller.SubscriptionController$$SpringCGLIB$$0.getusersubscription(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
@@ -180,10 +146,49 @@ com.example.exp.AppBadException: not found comment
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-08 Mar 2024 - 18:13:33 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.exp.AppBadException: not found comment] with root cause
-com.example.exp.AppBadException: not found comment
-	at com.example.service.CommentService.getCommitListProfileId(CommentService.java:119)
-	at com.example.controller.CommentController.getCommitListProfileId(CommentController.java:55)
+28 Mar 2024 - 10:22:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:22:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Mar 2024 - 10:22:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Mar 2024 - 10:22:08 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 3616 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+28 Mar 2024 - 10:22:08 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+28 Mar 2024 - 10:22:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Mar 2024 - 10:22:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 12 JPA repository interfaces.
+28 Mar 2024 - 10:22:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+28 Mar 2024 - 10:22:09 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+28 Mar 2024 - 10:22:09 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+28 Mar 2024 - 10:22:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+28 Mar 2024 - 10:22:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1810 ms
+28 Mar 2024 - 10:22:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Mar 2024 - 10:22:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+28 Mar 2024 - 10:22:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+28 Mar 2024 - 10:22:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+28 Mar 2024 - 10:22:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Mar 2024 - 10:22:10 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d1f23a0
+28 Mar 2024 - 10:22:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Mar 2024 - 10:22:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+28 Mar 2024 - 10:22:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:22:12 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+28 Mar 2024 - 10:22:14 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Mar 2024 - 10:22:14 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@743a9292, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dbfd081, org.springframework.security.web.context.SecurityContextHolderFilter@2910c3ae, org.springframework.security.web.header.HeaderWriterFilter@222557fc, org.springframework.security.web.authentication.logout.LogoutFilter@20c5b5f8, com.example.config.JwtTokenFilter@55448710, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@543895d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3699c795, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4691e2f5, org.springframework.security.web.access.ExceptionTranslationFilter@4df5b562, org.springframework.security.web.access.intercept.AuthorizationFilter@3c92f2f9]
+28 Mar 2024 - 10:22:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+28 Mar 2024 - 10:22:14 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 7.414 seconds (process running for 9.191)
+28 Mar 2024 - 10:22:14 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+28 Mar 2024 - 10:22:14 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+28 Mar 2024 - 10:22:14 INFO  o.f.c.i.license.VersionPrinter - 
+28 Mar 2024 - 10:22:15 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+28 Mar 2024 - 10:22:15 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.016s)
+28 Mar 2024 - 10:22:15 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+28 Mar 2024 - 10:22:15 ERROR o.f.core.internal.command.DbMigrate - Schema "public" has version 5, but no migration could be resolved in the configured locations !
+28 Mar 2024 - 10:22:15 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+28 Mar 2024 - 10:22:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28 Mar 2024 - 10:22:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28 Mar 2024 - 10:22:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+28 Mar 2024 - 10:23:51 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s642ms72µs300ns).
+28 Mar 2024 - 10:23:51 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.entity.ChannelEntity.getName()" because the return value of "com.example.entity.SubscriptionEntity.getChannelEntity()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.entity.ChannelEntity.getName()" because the return value of "com.example.entity.SubscriptionEntity.getChannelEntity()" is null
+	at com.example.service.SubscriptionService.getSubscriptionInfo(SubscriptionService.java:66)
+	at com.example.service.SubscriptionService.getUserSubscription(SubscriptionService.java:58)
+	at com.example.controller.SubscriptionController.getusersubscription(SubscriptionController.java:49)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
@@ -194,7 +199,7 @@ com.example.exp.AppBadException: not found comment
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at com.example.controller.CommentController$$SpringCGLIB$$0.getCommitListProfileId(<generated>)
+	at com.example.controller.SubscriptionController$$SpringCGLIB$$0.getusersubscription(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
@@ -290,21 +295,88 @@ com.example.exp.AppBadException: not found comment
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-08 Mar 2024 - 18:13:38 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.exp.AppBadException: not found comment] with root cause
-com.example.exp.AppBadException: not found comment
-	at com.example.service.CommentService.getCommitListProfileId(CommentService.java:119)
-	at com.example.controller.CommentController.getCommitListProfileId(CommentController.java:55)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:198)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at com.example.controller.CommentController$$SpringCGLIB$$0.getCommitListProfileId(<generated>)
+28 Mar 2024 - 10:23:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:23:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Mar 2024 - 10:23:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Mar 2024 - 10:24:00 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 18512 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+28 Mar 2024 - 10:24:00 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+28 Mar 2024 - 10:24:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Mar 2024 - 10:24:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 12 JPA repository interfaces.
+28 Mar 2024 - 10:24:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+28 Mar 2024 - 10:24:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+28 Mar 2024 - 10:24:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+28 Mar 2024 - 10:24:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+28 Mar 2024 - 10:24:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1985 ms
+28 Mar 2024 - 10:24:02 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Mar 2024 - 10:24:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+28 Mar 2024 - 10:24:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+28 Mar 2024 - 10:24:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+28 Mar 2024 - 10:24:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Mar 2024 - 10:24:03 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3739f3c9
+28 Mar 2024 - 10:24:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Mar 2024 - 10:24:04 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+28 Mar 2024 - 10:24:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:24:05 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+28 Mar 2024 - 10:24:06 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Mar 2024 - 10:24:06 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57d71569, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31741bb6, org.springframework.security.web.context.SecurityContextHolderFilter@1a0c384d, org.springframework.security.web.header.HeaderWriterFilter@4cdd0f2f, org.springframework.security.web.authentication.logout.LogoutFilter@1c0cba60, com.example.config.JwtTokenFilter@13157620, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c937c92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22c5652b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64903a20, org.springframework.security.web.access.ExceptionTranslationFilter@64dd94ed, org.springframework.security.web.access.intercept.AuthorizationFilter@5280e62e]
+28 Mar 2024 - 10:24:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+28 Mar 2024 - 10:24:07 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 6.971 seconds (process running for 7.805)
+28 Mar 2024 - 10:24:07 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+28 Mar 2024 - 10:24:07 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+28 Mar 2024 - 10:24:07 INFO  o.f.c.i.license.VersionPrinter - 
+28 Mar 2024 - 10:24:07 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+28 Mar 2024 - 10:24:07 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.015s)
+28 Mar 2024 - 10:24:07 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+28 Mar 2024 - 10:24:07 ERROR o.f.core.internal.command.DbMigrate - Schema "public" has version 5, but no migration could be resolved in the configured locations !
+28 Mar 2024 - 10:24:07 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+28 Mar 2024 - 10:24:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28 Mar 2024 - 10:24:12 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28 Mar 2024 - 10:24:12 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+28 Mar 2024 - 10:27:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 10:27:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Mar 2024 - 10:27:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Mar 2024 - 12:31:51 INFO  com.example.YouTubeApplication - Starting YouTubeApplication using Java 21.0.1 with PID 1272 (D:\programer\proekt\yutobe\YouTube\target\classes started by acer in D:\programer\proekt\yutobe\YouTube)
+28 Mar 2024 - 12:31:51 INFO  com.example.YouTubeApplication - The following 1 profile is active: "local"
+28 Mar 2024 - 12:31:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Mar 2024 - 12:31:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 12 JPA repository interfaces.
+28 Mar 2024 - 12:31:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+28 Mar 2024 - 12:31:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+28 Mar 2024 - 12:31:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+28 Mar 2024 - 12:31:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+28 Mar 2024 - 12:31:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2729 ms
+28 Mar 2024 - 12:31:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Mar 2024 - 12:31:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+28 Mar 2024 - 12:31:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+28 Mar 2024 - 12:31:55 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+28 Mar 2024 - 12:31:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Mar 2024 - 12:31:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@786ff0ea
+28 Mar 2024 - 12:31:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Mar 2024 - 12:31:56 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+28 Mar 2024 - 12:31:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Mar 2024 - 12:31:57 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+28 Mar 2024 - 12:31:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Mar 2024 - 12:31:58 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3294b641, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@799bb4ed, org.springframework.security.web.context.SecurityContextHolderFilter@3d8d926f, org.springframework.security.web.header.HeaderWriterFilter@1c9fa12, org.springframework.security.web.authentication.logout.LogoutFilter@75ad7531, com.example.config.JwtTokenFilter@4d0b8b8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59ea2a36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e24f013, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5269aa68, org.springframework.security.web.access.ExceptionTranslationFilter@2eb6a77f, org.springframework.security.web.access.intercept.AuthorizationFilter@5a1e28ee]
+28 Mar 2024 - 12:31:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+28 Mar 2024 - 12:31:59 INFO  com.example.YouTubeApplication - Started YouTubeApplication in 7.907 seconds (process running for 8.892)
+28 Mar 2024 - 12:31:59 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+28 Mar 2024 - 12:31:59 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+28 Mar 2024 - 12:31:59 INFO  o.f.c.i.license.VersionPrinter - 
+28 Mar 2024 - 12:31:59 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/yutobe (PostgreSQL 15.2)
+28 Mar 2024 - 12:31:59 INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.015s)
+28 Mar 2024 - 12:31:59 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+28 Mar 2024 - 12:31:59 ERROR o.f.core.internal.command.DbMigrate - Schema "public" has version 5, but no migration could be resolved in the configured locations !
+28 Mar 2024 - 12:31:59 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+28 Mar 2024 - 12:32:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28 Mar 2024 - 12:32:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28 Mar 2024 - 12:32:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+28 Mar 2024 - 12:32:03 INFO  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:03 WARN  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:03 ERROR c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:03 WARN  com.example.service.AuthService - Email or Password is wrongabjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:03 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.exp.AppBadException: Email yoki Password xato] with root cause
+com.example.exp.AppBadException: Email yoki Password xato
+	at com.example.service.AuthService.auth(AuthService.java:35)
+	at com.example.controller.AuthController.login(AuthController.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
@@ -316,8 +388,8 @@ com.example.exp.AppBadException: not found comment
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
@@ -325,7 +397,7 @@ com.example.exp.AppBadException: not found comment
 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
 	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
@@ -342,8 +414,7 @@ com.example.exp.AppBadException: not found comment
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
-	at com.example.config.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:57)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
@@ -400,7 +471,6 @@ com.example.exp.AppBadException: not found comment
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-08 Mar 2024 - 18:54:40 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m4s563ms359µs500ns).
-08 Mar 2024 - 19:37:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-08 Mar 2024 - 19:37:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-08 Mar 2024 - 19:37:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Mar 2024 - 12:32:16 INFO  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:16 WARN  c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
+28 Mar 2024 - 12:32:16 ERROR c.example.controller.AuthController - Login abjalilovozodjon@gmail.com
